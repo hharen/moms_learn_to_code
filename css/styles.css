@@ -1,0 +1,236 @@
+
+body {
+  font-family: "Lato";
+  text-align: center;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato";
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #bd0000;
+}
+
+a:hover {
+  color:  #afafaf;
+  text-decoration: none;
+}
+
+hr {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10em;
+  margin: 4em auto;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Lato";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 3%;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5;
+
+}
+
+/* Containers */
+
+.container-form {
+  padding: 7% 0;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.container-fluid-small {
+  padding: 2% 15%;
+}
+
+.container-coach {
+  padding: 7% 5%;
+  font-size: 1.5em;
+}
+
+.container-coach p {
+  text-align: left;
+}
+/* Sections */
+
+.colored-section {
+  background-color: #bd0000;
+  color: #fff;
+}
+
+.colored-section a {
+  color: #ffc107;
+}
+
+.colored-section a:hover {
+  color: #e0a800;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.dark-link {
+  color: #8a8a8a;
+}
+
+/* Teaser */
+.teaser {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+.teaser p {
+  color: #3b3b3b;
+}
+
+.border-red {
+  border: 2px solid #bd0000;
+}
+
+/* Buttons */
+
+.contact-button {
+  margin: 5% 2% 2% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #bd0000;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#course-title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Images */
+
+.title-image {
+  width: 100%;
+  position: static;
+  padding-left: 20%;
+}
+
+.title-image-small {
+  width: 20%;
+}
+
+
+
+.headshot-image {
+  width: 60%;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+
+/* Information Section */
+
+.info {
+  margin: 6% 0 5% 0;
+}
+
+.info-heading {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-left: 3em;
+  text-align: left;
+}
+
+li {
+  text-align: left;
+  font-size: 1.1em;
+  margin-left: 6em;
+  margin-bottom: 2%;
+}
+
+
+/* Footer Section */
+
+#footer .container-fluid {
+  padding: 0%;
+}
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+.info-heading {
+  margin-left: 3%;
+}
+
+li {
+  margin-left: 1em;
+}
+}
+
+@media (max-width: 730px) {
+
+  .section-heading {
+    font-size: 2em;
+  }
+
+  .info-heading {
+    font-size: 1.5em;
+  }
+
+  .dark-link {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    padding: 0 20%;
+  }
+}
+
+@media (max-width: 610px) {
+  .title-image {
+    padding: 0 20%;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}
