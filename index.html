@@ -49,7 +49,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-
+  <!-- Stripe Script -->
   <script src="https://js.stripe.com/v3"></script>
 </head>
 
@@ -81,18 +81,14 @@
                data-account="1165988:j7f7o8g7f4"
                 data-form="1282428:k9v0v0">
             </div>
-
-
       </div>
-
     </div>
-
   </section>
 
   <!-- Teaser -->
   <section class="white-section container-fluid">
     <div class="teaser">
-      <!-- <h2>Let's join one of the courses</h2> -->
+      <h2>Let's join one of the courses</h2>
       <p>Ever wondered what can you do for yourself with a small child? Or your child is already bigger and you can follow your dreams?
         Always wanted to learn to code?</p>
       <p>Then you are on the right address.</p>
@@ -101,25 +97,42 @@
     </div>
   </section>
 
-
   <!-- Short info -->
+  <section class="colored-section container-fluid" id="info">
+  <h2 class="section-heading" id="course-overview">Next courses starting in April</h2>
+  <h3><em>Sign up for the newsletter and to stay informed about the course dates and other news.</em></h3>
+  <hr>
 
-<section class="colored-section container-fluid" id="info">
-<h2 class="section-heading" id="course-overview">Next courses starting in April/May</h2>
-<h3><em>Sign up for the newsletter and I'll let you know when the dates will be published.</em></h3>
-<hr>
+  <!-- WebDev 1 course -->
+  <h3 class="strong">Web Development 1 - Introduction<br>Basics of HTML5, CSS3 and website structure</h3>
+  <h4>Tuesdays - 28.4., 5.5. and 12.5. from 18:30 to 20:30</h4>
+  <h4>Price: 220CHF</h4>
+  <br>
+
+  <!-- <a href="courses/course1.html"><button type="button" class="btn btn-warning btn-lg contact-button">
+            Learn more</button></a> -->
+
+  <!-- <a href="https://hanaharencarova.typeform.com/to/lxOaV7"><button type="button" class="btn btn-warning btn-lg contact-button">
+            Sign up now!</button></a> -->
+  <ul class="list-main-page">
+    <li>You will understand how the website is created</li>
+    <li>You will know the basics of HTML5 and CSS3</li>
+    <li>You will be able to use the code editor for your programming projects</li>
+    <li>You will create your first website</li>
+  </ul>
+  <hr>
+
   <!-- SEO course -->
-
   <h3 class="strong">SEO - step by step guide to get it right for your small business</h3>
-  <!-- <h4>Monday - 14.10. from 9:30 to 11:30</h4>
-  <h4>Price: 60CHF</h4> -->
+  <h4>Monday - 30.4. from 18:00 to 21:00</h4>
+  <h4>Price: 80CHF</h4>
 
   <!-- <a href="courses/seo.html"><button type="button" class="btn btn-warning btn-lg contact-button">
             Learn more</button></a> -->
 
   <!-- <a href="https://forms.gle/LxVabc4275gd5Z3H6"><button type="button" class="btn btn-warning btn-lg contact-button">
             Sign up now!</button></a> -->
-    <ul>
+    <ul class="list-main-page">
       <li>Which strategies use can use to improve your ranking</li>
       <li>On-page SEO (meta descriptions, alt tags, permalinks, creating and structuring the content, page titles, links)</li>
       <li>Off-page SEO (backlinks, domain authority)</li>
@@ -138,7 +151,7 @@
 
   <!-- <a href="https://forms.gle/qcU9mVEuwTTosuaPA"><button type="button" class="btn btn-warning btn-lg contact-button">
             Sign up now!</button></a> -->
-    <ul>
+    <ul class="list-main-page">
       <li>How to select the right theme for you</li>
       <li>Which plugins to use</li>
       <li>Basic design rules</li>
@@ -151,27 +164,7 @@
     </ul>
   <hr>
 
-  <!-- WebDev 1 course -->
-  <h3 class="strong">Course 1. Introduction<br>Basics of HTML5, CSS3 and website structure</h3>
-  <!-- <h4>Mondays - 11.11., 18.11. and 25.11. from 9:30 to 11:30.</h4>
-  <h4>Price: 180CHF</h4> -->
-
-  <!-- <a href="courses/course1.html"><button type="button" class="btn btn-warning btn-lg contact-button">
-            Learn more</button></a> -->
-
-  <!-- <a href="https://hanaharencarova.typeform.com/to/lxOaV7"><button type="button" class="btn btn-warning btn-lg contact-button">
-            Sign up now!</button></a> -->
-    <ul>
-      <li>You will understand how the website is created</li>
-      <li>You will know the basics of HTML5 and CSS3</li>
-      <li>You will be able to use the code editor for your programming projects</li>
-      <li>You will create your first website</li>
-    </ul>
-  <hr>
-
-
-
-    <h3 class="strong">Course 2. Going deeper<br>Advanced HTML5 and CSS3</h3>
+    <h3 class="strong">Web development 2 - Going deeper<br>Advanced HTML5 and CSS3</h3>
 
     <!-- <h4>4.11., .11.11., 18.11., 25.11., 2.12.</h4> -->
 
@@ -180,7 +173,7 @@
 
     <!-- <a href="https://hanaharencarova.typeform.com/to/PUbct7"><button type="button" class="btn btn-warning btn-lg contact-button">
               Sign up now!</button></a> -->
-      <ul>
+      <ul class="list-main-page">
         <li>You will become more confident in designing your websites</li>
         <li>You will know which metadata to include in the head</li>
         <li>You will be able to use box model to design your website</li>
@@ -191,7 +184,7 @@
       </ul>
     <hr>
 
-    <h3 class="strong">Course 3. Bootstrap<br>Make your website responsive</h3>
+    <h3 class="strong">Web development 3 - Bootstrap<br>Make your website responsive</h3>
 
     <!-- <h4>4.11., .11.11., 18.11., 25.11., 2.12.</h4> -->
 
@@ -200,7 +193,7 @@
 
     <!-- <a href="https://hanaharencarova.typeform.com/to/PUbct7"><button type="button" class="btn btn-warning btn-lg contact-button">
               Sign up now!</button></a> -->
-      <ul>
+      <ul class="list-main-page">
         <li>You will be able to make your website responsive with the Bootstrap library</li>
         <li>You will learn to incorporate dynamic features</li>
         <li>You will be able to use the bootstrap classes</li>

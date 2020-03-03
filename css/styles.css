@@ -114,6 +114,11 @@ hr {
   border: 2px solid #bd0000;
 }
 
+/* Main page */
+.list-main-page {
+  margin-top: 1em;
+}
+
 /* Buttons */
 
 .contact-button {
