@@ -59,10 +59,10 @@ hr {
 /* Containers */
 
 .container-form {
-  padding: 7% 0;
+  padding: 5% 0;
 }
 .container-fluid {
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 
 .container-fluid-small {
@@ -70,7 +70,7 @@ hr {
 }
 
 .container-coach {
-  padding: 7% 5%;
+  padding: 5% 5%;
   font-size: 1.5em;
 }
 
