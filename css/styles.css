@@ -34,6 +34,10 @@ hr {
   font-weight: bold;
 }
 
+.crossed {
+  text-decoration: line-through;
+}
+
 /* Headings */
 
 .big-heading {
