@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+
+#navigation {
+    background-color: #F8F9FA;
+    text-align: center;
+    font-size: 1.2em;
+    color: #95adbe;
+}
+
+#navigation a {
+    color:  #95adbe;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+#navigation a:hover {
+    color: #263859;
+}
+
+/* HEADER */
+header {
+    background-image: linear-gradient(to bottom, rgba(165,185,200,0.879), rgba(26,62,110,0.427) ),
+    url("annie-spratt-1657824-unsplash.jpg");
+    height: 600px;
+    padding: 5%;
+}
+
+.btn-call-me {
+    font-size: 2rem;
+    color: #ffcc66;
+    float: right;
+    margin-top: 50px;
+    margin-right: 7%;
+}
+
+/* HEADINGS */
+h1 {
+    color:  #ffcc66;
+    text-align: right;
+    font-size: 4em;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-right: 1em;
+}
+
+h2 {
+    color:  #ffcc66;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-right: 1em;
+}
+
+h3 {
+    color: #ffcc66;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* BODY */
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:  #263859
+}
+
+/* SECTIONS */
+.color-section {
+    background-color: #95adbe;
+    color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    padding: 20px 20px;
+}
+
+/* QUOTES */
+.quote {
+    background-color: #F8F9FA;
+    color: #95adbe;
+    line-height: 18px;
+    font-size: 2em;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 24px;
+}
+
+.author {
+    color:  #ffcc66;
+    font-size: 20px;
+}
+
+/* CAREER SUMMARY */
+.profil-picture{
+    border-radius: 200px;
+    height: 200px;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+.container-career-summary{
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+.career-summary {
+    text-align: left;
+    margin: 0 10%;
+}
+
+.details {
+    margin-left: 5px;
+}
+
+.fa-linkedin {
+    margin-right: 10px;
+}
+
+/* PROFESSIONAL PATH  */
+.professional-path{
+    text-align: left;
+    padding: 20px 7%;
+}
+
+.container-professional-path {
+    margin: 20px;
+}
+
+.container-professional-path p {
+    margin-bottom: 10px;
+}
+
+.col-lg-4, .col-lg-8 {
+    line-height: 1;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.employer {
+    font-weight: bold;
+    color: #ffcc66;
+}
+
+.work-title {
+    font-weight: bold;
+    color:  #ffcc66;
+}
+
+.work-title-second{
+    font-weight: bold;
+    color:  #ffcc66;
+    margin-top: 10px;
+}
+
+.work-details {
+    line-height: 1.1;
+}
+
+.location {
+    margin-top: 10px;
+}
+
+/* ABILITIES  */
+.abilities {
+    text-align: left;
+    padding: 20px 200px;
+}
+
+.container-abilities {
+    text-align: center;
+}
+
+/* EDUCATION  */
+.education {
+    text-align: left;
+    padding: 20px 7%;
+}
+
+.container-education {
+    margin: 20px;
+}
+
+.text-container {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.location-education{
+    margin-top: 0;
+}
+
+/* STATEMENT  */
+.carouselExampleIndicators{
+    text-align: center;
+    margin: 10px, auto;
+}
+
+.carousel-item {
+    min-width: 300px;
+    background: no-repeat center center scroll;
+    font-size: 18px;
+    line-height: 1.2em;
+    background-size: cover;
+    padding: 3% 5% 0 0;
+}
+
+.statement-picture {
+    border-radius: 100px;
+    height: 100px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+/* CONTACT  */
+.contact {
+    text-align: center;
+    padding: 50px 7%;
+}
+
+/* FOOTER  */
+#footer {
+    background-color: #F8F9FA;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: #95adbe;
+    padding: 2% 5%;
+}
+
+.fab fa-linkedin-in {
+    color: white;
+}
