@@ -38,6 +38,11 @@ hr {
   text-decoration: line-through;
 }
 
+.small-border {
+  padding: 5px;
+  margin: 50px 150px;
+}
+
 /* Headings */
 
 .big-heading {
@@ -231,6 +236,10 @@ li {
 @media (max-width: 991px) {
   .title-image {
     padding: 0 20%;
+  }
+
+  .small-border {
+    margin: 30px 20px;
   }
 }
 
